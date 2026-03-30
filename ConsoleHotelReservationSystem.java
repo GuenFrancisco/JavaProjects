@@ -82,7 +82,7 @@ public class FRANCISCO {
 		 System.out.print("Beef Steak Quantity: ");
 		 int beef = input.nextInt();
 
-		 System.out.print("Halo-Halo Quantity: \n\n");
+		 System.out.print("Halo-Halo Quantity: ");
 		 int halohalo = input.nextInt();
 
 
@@ -97,7 +97,7 @@ public class FRANCISCO {
 
 		 double totalBill = roomPrice + foodTotal;
 		 
-		 System.out.println("===== SUMMARY ======");
+		 System.out.println("\n\n===== SUMMARY ======");
 		 System.out.println("Name: " + name +"\n"
 				 + "Room Type: " + roomchoice +"\n"
 				 + "Number of Nights: " + numofNights + "\n"
