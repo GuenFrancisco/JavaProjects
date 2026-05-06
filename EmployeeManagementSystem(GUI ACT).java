@@ -274,7 +274,7 @@ public class EmployeeManagementSystem extends JFrame {
 	
         void saveAllDataToFile() {
             try {
-                FileWriter fw = new FileWriter(file); // overwrite file
+                FileWriter fw = new FileWriter(file);
 
                 for (int i = 0; i < model.getRowCount(); i++) {
                     for (int j = 0; j < model.getColumnCount(); j++) {
